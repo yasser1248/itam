@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include itam *.css
+recursive-include itam *.csv
+recursive-include itam *.html
+recursive-include itam *.ico
+recursive-include itam *.js
+recursive-include itam *.json
+recursive-include itam *.md
+recursive-include itam *.png
+recursive-include itam *.py
+recursive-include itam *.svg
+recursive-include itam *.txt
+recursive-exclude itam *.pyc
