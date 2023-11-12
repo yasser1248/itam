@@ -1,0 +1,157 @@
+{
+ "charts": [
+  {
+   "chart_name": "Project Summary",
+   "label": "Project Summary"
+  },
+  {
+   "chart_name": "Projects by department",
+   "label": "Projects "
+  }
+ ],
+ "content": "[{\"id\":\"_2n828MYuK\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Projects Dashboard</span>\",\"col\":12}},{\"id\":\"R8AC_0eZ7d\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Project Summary\",\"col\":12}},{\"id\":\"cpRmnZAfc6\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Projects \",\"col\":12}},{\"id\":\"-Ay6PE0e1a\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"catGD7V67J\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Main Reports:</b></span>\",\"col\":12}},{\"id\":\"Uj_KKVf-oy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Daily Timesheet Summary\",\"col\":3}},{\"id\":\"4mYTRlKnkp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project wise Stock Tracking\",\"col\":3}},{\"id\":\"9nJrqQKna9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Billing Summary\",\"col\":3}},{\"id\":\"ISXUw-U_Wx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Delayed Tasks Summary\",\"col\":3}},{\"id\":\"PPPFCo-pCx\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b></b></span>\",\"col\":12}},{\"id\":\"hSUJYzqwwm\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Main Card Reports:</b></span>\",\"col\":12}},{\"id\":\"kC2ph5NgtG\",\"type\":\"card\",\"data\":{\"card_name\":\"Project Reports\",\"col\":4}},{\"id\":\"VRvRYzk4sv\",\"type\":\"card\",\"data\":{\"card_name\":\"Other Reports\",\"col\":4}}]",
+ "creation": "2023-11-06 11:31:24.193662",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "projects",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Projects Dashboard",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Other Reports",
+   "link_count": 2,
+   "onboard": 1,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Daily Timesheet Summary",
+   "link_count": 0,
+   "link_to": "Daily Timesheet Summary",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Delayed Tasks Summary",
+   "link_count": 0,
+   "link_to": "Delayed Tasks Summary",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Reports",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Project wise Stock Tracking",
+   "link_count": 0,
+   "link_to": "Project wise Stock Tracking",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Project Billing Summary",
+   "link_count": 0,
+   "link_to": "Project Billing Summary",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Project Profitability",
+   "link_count": 0,
+   "link_to": "Project Profitability",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Project Summary",
+   "link_count": 0,
+   "link_to": "Project Summary",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Projected Qty",
+   "link_count": 0,
+   "link_to": "Stock Projected Qty",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-07 19:25:52.613918",
+ "modified_by": "Administrator",
+ "module": "Itam",
+ "name": "Projects Dashboard",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Assets Director"
+  }
+ ],
+ "sequence_id": 21.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Daily Timesheet Summary",
+   "link_to": "Daily Timesheet Summary",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Project wise Stock Tracking",
+   "link_to": "Project wise Stock Tracking",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Project Billing Summary",
+   "link_to": "Project Billing Summary",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Delayed Tasks Summary",
+   "link_to": "Delayed Tasks Summary",
+   "type": "Report"
+  }
+ ],
+ "title": "Projects Dashboard"
+}

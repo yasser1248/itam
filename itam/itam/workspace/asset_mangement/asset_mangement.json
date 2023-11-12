@@ -1,0 +1,348 @@
+{
+ "charts": [
+  {
+   "chart_name": "Asset Category",
+   "label": "Asset Category"
+  },
+  {
+   "chart_name": "Asset Count By Lifecycle State",
+   "label": "Asset Count By Lifecycle State"
+  },
+  {
+   "chart_name": "Asset Value by Category",
+   "label": "Asset Value by Category"
+  }
+ ],
+ "content": "[{\"id\":\"ich5Gkgn7H\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Asset Management</span>\",\"col\":12}},{\"id\":\"S16FD3oR0l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"New Assets (This Year)\",\"col\":3}},{\"id\":\"jqUSz8W3L6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Assets\",\"col\":3}},{\"id\":\"FhwNRrgvom\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Asset Value\",\"col\":3}},{\"id\":\"O9zrutEpXY\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Disposal Assets\",\"col\":3}},{\"id\":\"CApperGJu0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"New Request\",\"col\":3}},{\"id\":\"Tq7GgIJcme\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Update Request\",\"col\":3}},{\"id\":\"aGBKw36IL7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Approved Request\",\"col\":3}},{\"id\":\"uMoYRkFdLL\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Reject Request\",\"col\":3}},{\"id\":\"8_xOexPwzs\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Asset Count By Lifecycle State\",\"col\":12}},{\"id\":\"T1a4DZxL0W\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Asset Category\",\"col\":6}},{\"id\":\"S_HOH3ntkZ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Asset Value by Category\",\"col\":6}},{\"id\":\"B0jcMxsEYS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Dashboard\",\"col\":3}},{\"id\":\"DPYD9k_BDd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Movement\",\"col\":3}},{\"id\":\"4SD9A_UID3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Category\",\"col\":3}},{\"id\":\"ODrTN42ZsY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Receipt\",\"col\":3}},{\"id\":\"JnCfUjftNt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Inspection\",\"col\":3}},{\"id\":\"iVWPJl14xZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":3}},{\"id\":\"2y7gzvh5Cu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Supplier\",\"col\":3}},{\"id\":\"IjxFVBdzi8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fixed Asset Register\",\"col\":3}},{\"id\":\"soZz7ICE54\",\"type\":\"card\",\"data\":{\"card_name\":\"Assets\",\"col\":4}},{\"id\":\"VX-_xH3YfI\",\"type\":\"card\",\"data\":{\"card_name\":\"Items & Pricing\",\"col\":4}},{\"id\":\"Dx9wPxudZr\",\"type\":\"card\",\"data\":{\"card_name\":\"Maintenance\",\"col\":4}},{\"id\":\"RVxw4bpHP8\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "creation": "2023-11-06 14:40:11.530277",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "assets",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Asset Mangement",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assets",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset",
+   "link_count": 0,
+   "link_to": "Asset",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Location",
+   "link_count": 0,
+   "link_to": "Location",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Category",
+   "link_count": 0,
+   "link_to": "Asset Category",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Movement",
+   "link_count": 0,
+   "link_to": "Asset Movement",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Depreciation Ledger",
+   "link_count": 0,
+   "link_to": "Asset Depreciation Ledger",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Maintenance",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Maintenance Team",
+   "link_count": 0,
+   "link_to": "Asset Maintenance Team",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Maintenance",
+   "link_count": 0,
+   "link_to": "Asset Maintenance",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Maintenance Log",
+   "link_count": 0,
+   "link_to": "Asset Maintenance Log",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Value Adjustment",
+   "link_count": 0,
+   "link_to": "Asset Value Adjustment",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Items & Pricing",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item",
+   "link_count": 0,
+   "link_to": "Item",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item Price",
+   "link_count": 0,
+   "link_to": "Item Price",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item Group",
+   "link_count": 0,
+   "link_to": "Item Group",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Price List",
+   "link_count": 0,
+   "link_to": "Price List",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vendor",
+   "link_count": 0,
+   "link_to": "Vendor",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Depreciation Ledger",
+   "link_count": 0,
+   "link_to": "Asset Depreciation Ledger",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Depreciations and Balances",
+   "link_count": 0,
+   "link_to": "Asset Depreciations and Balances",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Maintenance",
+   "link_count": 0,
+   "link_to": "Asset Maintenance",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Count By Lifecycle State",
+   "link_count": 0,
+   "link_to": "Asset Count By Lifecycle State",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-12 16:15:18.142749",
+ "modified_by": "Administrator",
+ "module": "Itam",
+ "name": "Asset Mangement",
+ "number_cards": [
+  {
+   "label": "New Assets (This Year)",
+   "number_card_name": "New Assets (This Year)"
+  },
+  {
+   "label": "Total Assets",
+   "number_card_name": "Total Assets"
+  },
+  {
+   "label": "Asset Value",
+   "number_card_name": "Asset Value"
+  },
+  {
+   "label": "Disposal Assets",
+   "number_card_name": "Disposal Assets"
+  },
+  {
+   "label": "New Request",
+   "number_card_name": "New Request"
+  },
+  {
+   "label": "Update Request",
+   "number_card_name": "Update Request"
+  },
+  {
+   "label": "Approved Request",
+   "number_card_name": "Approved Request"
+  },
+  {
+   "label": "Reject Request",
+   "number_card_name": "Reject Request"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Administrator"
+  }
+ ],
+ "sequence_id": 4.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Fixed Asset Register",
+   "link_to": "Fixed Asset Register",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Dashboard",
+   "link_to": "Asset",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Movement",
+   "link_to": "Asset Movement",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Quality Inspection",
+   "link_to": "Quality Inspection",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Category",
+   "link_to": "Asset Category",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Purchase Receipt",
+   "link_to": "Purchase Receipt",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Item",
+   "link_to": "Item",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Supplier",
+   "link_to": "Supplier",
+   "type": "DocType"
+  }
+ ],
+ "title": "Asset Mangement"
+}

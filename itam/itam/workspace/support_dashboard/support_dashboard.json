@@ -1,0 +1,185 @@
+{
+ "charts": [
+  {
+   "chart_name": "Issues",
+   "label": "Issues"
+  },
+  {
+   "chart_name": "Issues priority",
+   "label": "Issues Priority"
+  }
+ ],
+ "content": "[{\"id\":\"O6s-zqQe16\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Support Dashboard</span>\",\"col\":12}},{\"id\":\"r3TTxsfwg6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Issues\",\"col\":4}},{\"id\":\"3YqVObpnDN\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Issues\",\"col\":4}},{\"id\":\"BhmkONhMKo\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"On Hold Issues\",\"col\":4}},{\"id\":\"sA9nm610yg\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Repiled Issues\",\"col\":4}},{\"id\":\"Ujd0VPkRuQ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Resoled Issues\",\"col\":4}},{\"id\":\"PZAf1UlEbD\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Closed Issues\",\"col\":4}},{\"id\":\"aREEk064lT\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Issues\",\"col\":6}},{\"id\":\"x6-rA1ZleY\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Issues Priority\",\"col\":6}},{\"id\":\"_lEHdetgzJ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"j_z8OWwa59\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Main Reports:</b></span>\",\"col\":12}},{\"id\":\"NFORElWcn9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"First Response Time For Issues\",\"col\":3}},{\"id\":\"WET8IFCGoE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Warranty expirations\",\"col\":3}},{\"id\":\"mZO_nm8j09\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Serial No Warranty Expiry\",\"col\":3}},{\"id\":\"nfwxdXpYuU\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b></b></span>\",\"col\":12}},{\"id\":\"PYsULn69bp\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Main Card Reports:</b></span>\",\"col\":12}},{\"id\":\"PDL_uXwzKt\",\"type\":\"card\",\"data\":{\"card_name\":\"Support Reports\",\"col\":4}},{\"id\":\"hqDAGSyKBv\",\"type\":\"card\",\"data\":{\"card_name\":\"Issue Report\",\"col\":4}}]",
+ "creation": "2023-11-06 11:15:41.259508",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "support",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Support Dashboard",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Support Reports",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "First Response Time for Issues",
+   "link_count": 0,
+   "link_to": "First Response Time for Issues",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Maintenance",
+   "link_count": 0,
+   "link_to": "Asset Maintenance",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Warranty expirations",
+   "link_count": 0,
+   "link_to": "Asset Warranty expirations",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Serial No Warranty Expiry",
+   "link_count": 0,
+   "link_to": "Serial No Warranty Expiry",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Support Hour Distribution",
+   "link_count": 0,
+   "link_to": "Support Hour Distribution",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Issue Report",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Issue Analytics",
+   "link_count": 0,
+   "link_to": "Issue Analytics",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Issue Summary",
+   "link_count": 0,
+   "link_to": "Issue Summary",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Support Hour Distribution",
+   "link_count": 0,
+   "link_to": "Support Hour Distribution",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-07 19:29:02.371771",
+ "modified_by": "Administrator",
+ "module": "Itam",
+ "name": "Support Dashboard",
+ "number_cards": [
+  {
+   "label": "Issues",
+   "number_card_name": "Issues"
+  },
+  {
+   "label": "Open Issues",
+   "number_card_name": "Open Issues"
+  },
+  {
+   "label": "On Hold Issues",
+   "number_card_name": "On Hold Issues"
+  },
+  {
+   "label": "Repiled Issues",
+   "number_card_name": "Repiled Issues"
+  },
+  {
+   "label": "Resoled Issues",
+   "number_card_name": "Resoled Issues"
+  },
+  {
+   "label": "Closed Issues",
+   "number_card_name": "Closed Issues"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Assets Director"
+  }
+ ],
+ "sequence_id": 34.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "First Response Time For Issues",
+   "link_to": "First Response Time for Issues",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Warranty expirations",
+   "link_to": "Asset Warranty expirations",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Serial No Warranty Expiry",
+   "link_to": "Serial No Warranty Expiry",
+   "type": "Report"
+  }
+ ],
+ "title": "Support Dashboard"
+}

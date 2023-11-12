@@ -1,0 +1,90 @@
+<button
+  class="btn btn-material-request font-md w-30-40"
+  data-item-code="{{ doc.name }}"
+>
+  {{ _('Request') }}
+</button>
+
+<script>
+  frappe.ready(() => {
+
+    const d = new frappe.ui.Dialog({
+      title: __("Request"),
+      fields: [
+        {
+          fieldtype: "Data",
+          label: __("Item Code"),
+          fieldname: "item_code",
+          default: "{{ doc.item_code }}",
+          reqd: 1,
+        },
+        {
+          fieldtype: "Int",
+          label: __("Item Quantity"),
+          fieldname: "qty",
+          default: "1",
+          reqd: 1,
+        },
+        {
+          fieldtype: "Select",
+          label: __("Request Type"),
+          fieldname: "request_type",
+          default: "New",
+          reqd: 1,
+          options: [
+            {
+              label: "New",
+              value: "New",
+            },
+            {
+              label: "Update",
+              value: "Update",
+            },
+          ],
+        },
+      ],
+      primary_action: send_inquiry,
+      primary_action_label: __("Send"),
+    });
+
+    function send_inquiry() {
+      const values = d.get_values();
+      const doc = Object.assign({}, values);
+      d.hide();
+
+      frappe
+        .call("itam.templates.pages.material_request.material_request", {
+          data: doc,
+          user: frappe.session.user,
+        })
+        .then((r) => {
+          if (r.message === "Success") {
+            d.clear();
+            //show_alert with indicator
+            frappe.show_alert(
+              {
+                message: __("Your request has been submitted successfully."),
+                indicator: "green",
+              },
+              5
+            );
+          }
+          else {
+            frappe.show_alert(
+              {
+                message: __("Your request has failed"),
+                indicator: "red",
+              },
+              5
+            );
+            d.clear();
+          }
+        });
+    }
+
+    $(".btn-material-request").click((e) => {
+      const $btn = $(e.target);
+      d.show();
+    });
+  });
+</script>

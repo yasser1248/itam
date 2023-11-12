@@ -1,0 +1,35 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Website Sidebar",
+  "modified": "2023-11-07 13:52:20.803187",
+  "name": "Home Page Sidebar",
+  "sidebar_items": [
+   {
+    "group": null,
+    "parent": "Home Page Sidebar",
+    "parentfield": "sidebar_items",
+    "parenttype": "Website Sidebar",
+    "route": "/all-products",
+    "title": "All Products"
+   },
+   {
+    "group": null,
+    "parent": "Home Page Sidebar",
+    "parentfield": "sidebar_items",
+    "parenttype": "Website Sidebar",
+    "route": "/issues-web",
+    "title": "Issues"
+   },
+   {
+    "group": null,
+    "parent": "Home Page Sidebar",
+    "parentfield": "sidebar_items",
+    "parenttype": "Website Sidebar",
+    "route": "/material-request-web",
+    "title": "Requests"
+   }
+  ],
+  "title": "Home Page Sidebar"
+ }
+]

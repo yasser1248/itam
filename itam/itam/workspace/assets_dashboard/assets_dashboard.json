@@ -1,0 +1,272 @@
+{
+ "charts": [
+  {
+   "chart_name": "Category-wise Asset Value",
+   "label": "Category-wise Asset Value"
+  },
+  {
+   "chart_name": "Asset by Stockroom",
+   "label": "Asset by Stockroom"
+  },
+  {
+   "chart_name": "Asset Category",
+   "label": "Asset Category"
+  },
+  {
+   "chart_name": "Asset Value by Category",
+   "label": "Asset Value by Category"
+  },
+  {
+   "chart_name": "Location-wise Asset Value",
+   "label": "Location-wise Asset Value"
+  },
+  {
+   "chart_name": "asset",
+   "label": "Asset"
+  },
+  {
+   "chart_name": "Item",
+   "label": "Item"
+  },
+  {
+   "chart_name": "Purchase Receipt Trends",
+   "label": "Purchase Receipt Trends"
+  },
+  {
+   "chart_name": "Incoming Bills (Purchase Invoice)",
+   "label": "Incoming Bills (Purchase Invoice)"
+  }
+ ],
+ "content": "[{\"id\":\"xCruk5gyTF\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Assets Dashboard</span>\",\"col\":12}},{\"id\":\"JCRMlfP2cC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Assets\",\"col\":3}},{\"id\":\"d06XutbIxV\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"New Assets (This Year)\",\"col\":3}},{\"id\":\"9fi0H-u_zo\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Asset Value\",\"col\":6}},{\"id\":\"eBn_5Wb34R\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"New Request\",\"col\":3}},{\"id\":\"ZsDwMJ8B3C\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Update Request\",\"col\":3}},{\"id\":\"frNQxBNo4F\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Approved Request\",\"col\":3}},{\"id\":\"ETpz6u5-uf\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Reject Request\",\"col\":3}},{\"id\":\"O2aGNHPs6i\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Loan Asset\",\"col\":3}},{\"id\":\"MFSL84OuGs\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Disposal Assets\",\"col\":3}},{\"id\":\"xldX1RjAe2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Asset Depreciation\",\"col\":3}},{\"id\":\"qoWwZ5fV1P\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Purchase Orders\",\"col\":3}},{\"id\":\"E8VPnd_G1m\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Purchase Orders to Bill\",\"col\":3}},{\"id\":\"oQ6aZcPGDR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Purchase Orders to Receive\",\"col\":3}},{\"id\":\"ME3P_t8_VD\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Incoming Bills\",\"col\":6}},{\"id\":\"JkZGWF-o_u\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"A-wys8P-B7\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Asset Category\",\"col\":6}},{\"id\":\"IgwbQgufVI\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Asset Value by Category\",\"col\":6}},{\"id\":\"IkIzQRjso6\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Asset\",\"col\":6}},{\"id\":\"ivWS6i9BTy\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Asset by Stockroom\",\"col\":6}},{\"id\":\"OTN9thnqic\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Category-wise Asset Value\",\"col\":6}},{\"id\":\"panNNrplyJ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Location-wise Asset Value\",\"col\":6}},{\"id\":\"9PsQrMPHcO\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Item\",\"col\":12}},{\"id\":\"4dJKHQkZTD\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Purchase Receipt Trends\",\"col\":12}},{\"id\":\"L13MqfAgJS\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Incoming Bills (Purchase Invoice)\",\"col\":12}},{\"id\":\"pJ7OFCpOXf\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"NRjHG0YUIG\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Main Reports :</b></span>\",\"col\":12}},{\"id\":\"_TiTuvv29D\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Depreciation Ledger\",\"col\":3}},{\"id\":\"pb8RL3Zi2t\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Depreciations And Balances\",\"col\":3}},{\"id\":\"loJk4sxkWd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Maintenance\",\"col\":3}},{\"id\":\"XWgQgWpC9S\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fixed Asset Register\",\"col\":3}},{\"id\":\"2dU1tewo52\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b></b></span>\",\"col\":12}},{\"id\":\"y1SkqhFn9D\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Main Card Reports:</b></span><span class=\\\"h4\\\"><b></b></span>\",\"col\":12}},{\"id\":\"oUPp3f5DI4\",\"type\":\"card\",\"data\":{\"card_name\":\"Asset Reports\",\"col\":4}},{\"id\":\"sRaDBG_VMj\",\"type\":\"card\",\"data\":{\"card_name\":\"Asset Depreciation Reports\",\"col\":4}}]",
+ "creation": "2023-11-06 11:09:23.940257",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "dashboard-list",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Assets Dashboard",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Depreciation Ledger",
+   "link_count": 0,
+   "link_to": "Asset Depreciation Ledger",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Depreciations and Balances",
+   "link_count": 0,
+   "link_to": "Asset Depreciations and Balances",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Maintenance",
+   "link_count": 0,
+   "link_to": "Asset Maintenance",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Fixed Asset Register",
+   "link_count": 0,
+   "link_to": "Fixed Asset Register",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Reports",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Fixed Asset Register",
+   "link_count": 0,
+   "link_to": "Fixed Asset Register",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Maintenance",
+   "link_count": 0,
+   "link_to": "Asset Maintenance",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Warranty expirations",
+   "link_count": 0,
+   "link_to": "Asset Warranty expirations",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Warranty expirations",
+   "link_count": 0,
+   "link_to": "Asset Warranty expirations",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Depreciation Reports",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Depreciation Ledger",
+   "link_count": 0,
+   "link_to": "Asset Depreciation Ledger",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Depreciations and Balances",
+   "link_count": 0,
+   "link_to": "Asset Depreciations and Balances",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-08 12:50:07.296713",
+ "modified_by": "Administrator",
+ "module": "Itam",
+ "name": "Assets Dashboard",
+ "number_cards": [
+  {
+   "label": "Disposal Assets",
+   "number_card_name": "Disposal Assets"
+  },
+  {
+   "label": "New Request",
+   "number_card_name": "New Request"
+  },
+  {
+   "label": "Reject Request",
+   "number_card_name": "Reject Request"
+  },
+  {
+   "label": "New Assets (This Year)",
+   "number_card_name": "New Assets (This Year)"
+  },
+  {
+   "label": "Asset Depreciation",
+   "number_card_name": "Asset Depreciation"
+  },
+  {
+   "label": "Update Request",
+   "number_card_name": "Update Request"
+  },
+  {
+   "label": "Purchase Orders",
+   "number_card_name": "Purchase Orders"
+  },
+  {
+   "label": "Approved Request",
+   "number_card_name": "Approved Request"
+  },
+  {
+   "label": "Total Assets",
+   "number_card_name": "Total Assets"
+  },
+  {
+   "label": "Purchase Orders to Bill",
+   "number_card_name": "Purchase Orders to Bill"
+  },
+  {
+   "label": "Asset Value",
+   "number_card_name": "Asset Value"
+  },
+  {
+   "label": "Purchase Orders to Receive",
+   "number_card_name": "Purchase Orders to Receive"
+  },
+  {
+   "label": "Total Incoming Bills",
+   "number_card_name": "Total Incoming Bills"
+  },
+  {
+   "label": "Loan Asset",
+   "number_card_name": "Loan Asset"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Assets Director"
+  }
+ ],
+ "sequence_id": 5.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Depreciation Ledger",
+   "link_to": "Asset Depreciation Ledger",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Depreciations And Balances",
+   "link_to": "Asset Depreciations and Balances",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Maintenance",
+   "link_to": "Asset Maintenance",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Fixed Asset Register",
+   "link_to": "Fixed Asset Register",
+   "type": "Report"
+  }
+ ],
+ "title": "Assets Dashboard"
+}
