@@ -114,7 +114,7 @@ def get_chart_data(columns , data):
         },
 
         "type" : "pie" ,
-        "colors": [ "#0d3659" , "#80e5ff" ,"#525c69","#a6cff2","#6a6d7c" , "#2086df","#AD2959" ],
+        "colors": [ "#5cc1f4" , "#bc8eee" ,"#ee8c8d","#f0a86e","#89be4a" , "#f8d45c","#AD2959" ],
     }
     return chart
 
