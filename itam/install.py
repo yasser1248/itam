@@ -6,7 +6,7 @@ import os
 
 
 @frappe.whitelist()
-def install_doctypes_data_after_install() :
+def install_doctypes_data_before_install() :
     """ When app install will add any json files in folder files to database """
     all_files_in_folders = os.listdir( frappe.get_app_path("itam" ,"files"))
     click.secho("Install Doctypes From Files  => {}".format( " , ".join(all_files_in_folders)), fg="green")
