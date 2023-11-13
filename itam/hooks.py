@@ -70,7 +70,7 @@ website_generators = ["Web Page"]
 # ------------
 
 # before_install = "itam.install.before_install"
-# after_install = "itam.install.after_install"
+after_install = "itam.install.install_doctypes_data_after_install"
 
 # Uninstallation
 # ------------
