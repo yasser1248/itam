@@ -887,4 +887,10 @@ fixtures = [
     {
         "dt": ("Website Settings"),
     },
+    {
+        "dt" : ("Workspace"), 
+        "filters": [
+            ["name" , "in" , ("Support" , "Projects")]
+        ]
+    }
 ]
