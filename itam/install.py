@@ -12,4 +12,5 @@ def install_doctypes_data_before_install() :
     click.secho("Install Doctypes From Files  => {}".format( " , ".join(all_files_in_folders)), fg="green")
     for file in all_files_in_folders:
         import_doc(frappe.get_app_path("itam" ,"files/" + f"{file}"))
-        frappe.db.commit()
+    
+    frappe.db.commit()

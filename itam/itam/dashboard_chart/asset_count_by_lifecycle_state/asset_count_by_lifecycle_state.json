@@ -1,0 +1,31 @@
+{
+ "chart_name": "Asset Count By Lifecycle State",
+ "chart_type": "Report",
+ "creation": "2023-11-12 09:54:59.873489",
+ "custom_options": "{\"type\": \"pie\", \"colors\": [\"#5cc1f4\" , \"#bc8eee\" ,\"#ee8c8d\",\"#f0a86e\",\"#89be4a\" , \"#f8d45c\",\"#AD2959\"], \"axisOptions\": {\"shortenYAxisNumbers\": 1}, \"height\": 280}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2024-01-08 11:25:41.006551",
+ "modified_by": "Administrator",
+ "module": "Itam",
+ "name": "Asset Count By Lifecycle State",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Asset Count By Lifecycle State",
+ "roles": [
+  {
+   "role": "Assets Director"
+  }
+ ],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Pie",
+ "use_report_chart": 1,
+ "y_axis": []
+}

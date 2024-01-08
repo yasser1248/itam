@@ -1,0 +1,22 @@
+{
+ "aggregate_function_based_on": "value_after_depreciation",
+ "color": "#F2676A",
+ "creation": "2020-07-14 18:23:53.302457",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "Asset",
+ "filters_json": "[]",
+ "function": "Sum",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Asset Value",
+ "modified": "2024-01-08 11:52:43.171638",
+ "modified_by": "Administrator",
+ "module": "Itam",
+ "name": "Asset Value",
+ "owner": "Administrator",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Monthly",
+ "type": "Document Type"
+}

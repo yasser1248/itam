@@ -1,6 +1,6 @@
 {
  "aggregate_function_based_on": "",
- "color": "#3b63db",
+ "color": "#5d89a8",
  "creation": "2023-11-05 16:15:55.804014",
  "docstatus": 0,
  "doctype": "Number Card",
@@ -12,7 +12,7 @@
  "is_public": 1,
  "is_standard": 1,
  "label": "Purchase Orders",
- "modified": "2023-11-05 16:15:55.804014",
+ "modified": "2024-01-08 11:58:33.102271",
  "modified_by": "Administrator",
  "module": "Itam",
  "name": "Purchase Orders",
